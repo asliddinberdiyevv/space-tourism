@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space Tourism</title>
 
-  <link rel="stylesheet" href="css/main.css"/>
-  <link rel="stylesheet" href="./css/home.css"/>
-  <link rel="stylesheet" href="./css/utils.css"/>
-</head>
-<body>
-<!-- home page -->
-<div class="home">
-  <!-- header -->
-  <div class="home__navbar">
-    <!-- header logo -->
-    <img class="home__navbar-logo" src="./assets/shared/logo.svg" width="48" height="48" alt="logo">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+  </head>
+  <body>
+    <!-- index page -->
+    <div class="home">
+      <!-- header -->
+      <div class="navbar">
+        <!-- header logo -->
+        <img
+          class="navbar-logo"
+          src="./assets/shared/logo.svg"
+          width="48"
+          height="48"
+          alt="logo"
+        />
 
-    <!-- header menu -->
-    <ul class="home__navbar-menu">
-      <li class="home__navbar-menu--item"><span class="font_weight-700">00</span> home</li>
-      <li class="home__navbar-menu--item"><span class="font_weight-700">01</span> destination</li>
-      <li class="home__navbar-menu--item"><span class="font_weight-700">02</span> crew</li>
-      <li class="home__navbar-menu--item"><span class="font_weight-700">03</span> technology</li>
-    </ul>
-  </div>
-  <!-- main -->
-  <div class="home__main">
-       <div class="home_title">
-        <p class="travel">SO, YOU WANT TO TRAVEL TO</p>
-       <h1 class="space">SPACE</h1>
-       <p class="space_text">Let’s face it; if you want to go to space, you might as well
-       genuinely go to outer space and not hover kind of on the edge of it.
-       Well sit back, and relax because we’ll give you a truly out of this
-       world experience!</p>
-       </div>
-       <div class="explore">
-         <h1>explore</h1>
-       </div>
-  </div>
-</div>
-</body>
+        <!-- header menu -->
+        <ul class="navbar-menu">
+          <li class="navbar-menu--item active">
+            <a href="./index.html">
+              <span class="font_weight-700">00</span> home
+            </a>
+          </li>
+          <li class="navbar-menu--item">
+            <a href="./pages/destination.html">
+              <span class="font_weight-700">01</span> destination
+            </a>
+          </li>
+          <li class="navbar-menu--item">
+            <a href="./pages/crew.html">
+              <span class="font_weight-700">02</span> crew
+            </a>
+          </li>
+          <li class="navbar-menu--item">
+            <a href="./pages/technology.html">
+              <span class="font_weight-700">03</span> technology
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- main -->
+      <div class="home__main">
+        <div class="home_title">
+          <p class="travel">SO, YOU WANT TO TRAVEL TO</p>
+          <h1 class="space">SPACE</h1>
+          <p class="space_text">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <div class="explore">
+          <h1>explore</h1>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
