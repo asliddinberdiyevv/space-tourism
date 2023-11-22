@@ -21,15 +21,7 @@
     width: 4.8rem;
     height: 4.8rem;
 }
-.home__navbar-line {
-    display: inline-block;
-    width: 40rem;
-    height: 0.1rem;
-    margin-right: -6rem;
-    z-index: 1;
-    background-color: #fff;
-    opacity: 0.3;
-}
+
 .home__navbar-menu {
     width: 83rem;
     height: 100%;
@@ -39,6 +31,15 @@
     background-color: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(2rem);
     list-style: none;
+}
+.home__navbar-menu::before {
+    content: '';
+    display: inline-block;
+    width: 40rem;
+    height: 0.1rem;
+    margin-left: -40rem;
+    background-color: #fff;
+    opacity: 0.3;
 }
 
 .home__navbar-menu--item{
