@@ -7,49 +7,6 @@
     background-repeat: no-repeat;
 }
 
-.home__navbar {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 7rem;
-    margin-top: 2rem;
-}
-
-.home__navbar-logo {
-    object-fit: cover;
-    margin-left: 5rem;
-    width: 4.8rem;
-    height: 4.8rem;
-}
-
-.home__navbar-menu {
-    width: 83rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(2rem);
-    list-style: none;
-}
-.home__navbar-menu::before {
-    content: '';
-    display: inline-block;
-    width: 40rem;
-    height: 0.1rem;
-    margin-left: -40rem;
-    background-color: #fff;
-    opacity: 0.3;
-}
-
-.home__navbar-menu--item{
-    font-size: 1.6rem;
-    letter-spacing: .27rem;
-    color: #fff;
-    text-transform: uppercase;
-}
-
 .home__main {
    display: flex;
    justify-content: space-between;
