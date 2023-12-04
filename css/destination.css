@@ -40,7 +40,43 @@
 }
 
 .destination__main-details {
-    background-color: #FFFFFF;
-    width: 10rem;
-    height: 10rem;
+    max-width: 448px;
 }
+.destination_nav li{
+    display:inline-flex;
+    
+}
+.destination_nav {
+    display: flex;
+    align-items: flex-end;
+    gap: 3.6rem;
+}
+.section_text_title .moon_title{
+    color: #FFF;
+    font-size: 10rem;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+
+.moon_title_text {
+    max-width: 44.5rem;
+    height: 12rem;
+    color: #D0D6F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.line {
+    height: .2rem;
+    color: #D0D6F9;
+    width: 1.2rem;
+    
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
